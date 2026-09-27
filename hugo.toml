@@ -1,0 +1,26 @@
+baseURL = "https://ymwlo1931.github.io/personal/"
+languageCode = "en-us"
+title = "My Persoanl Stuff"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  description  = "My Obsidian notes, published."
+  author       = "YMW Lo"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
