@@ -1,3 +1,7 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+
+[submodule "themes/spectra"]
+	path = themes/spectra
+	url = https://github.com/JoeYang1412/hugo-theme-spectra.git
